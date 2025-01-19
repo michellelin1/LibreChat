@@ -60,6 +60,8 @@ module.exports = {
           800: '#06373e',
           900: '#031f29',
         },
+        'cal-blue': '#0F274A',
+        'cal-gold': '#DBAB22',
         'brand-purple': '#ab68ff',
         'presentation': 'var(--presentation)',
         'text-primary': 'var(--text-primary)',

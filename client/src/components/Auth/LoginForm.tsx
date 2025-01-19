@@ -62,7 +62,19 @@ const LoginForm: React.FC<TLoginFormProps> = ({ onSubmit, startupConfig, error, 
 
   return (
     <>
-      {showResendLink && (
+      <div>
+        <img 
+          src="/assets/berkeley-haas-wordmark.svg"
+          width="300px"
+        />
+      </div>
+      <div>
+        <h1 className="text-2xl font-bold py-4 text-white">
+          Hass AI Chat
+        </h1>
+        <button className="px-3 py-2 bg-cal-gold">Login with Calnet</button>
+      </div>
+      {/* {showResendLink && (
         <div className="mt-2 rounded-md border border-green-500 bg-green-500/10 px-3 py-2 text-sm text-gray-600 dark:text-gray-200">
           {localize('com_auth_email_verification_resend_prompt')}
           <button
@@ -175,7 +187,7 @@ const LoginForm: React.FC<TLoginFormProps> = ({ onSubmit, startupConfig, error, 
             {localize('com_auth_continue')}
           </button>
         </div>
-      </form>
+      </form> */}
     </>
   );
 };
